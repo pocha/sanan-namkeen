@@ -1,10 +1,80 @@
 <!DOCTYPE html>
 <html>
 	{% include head.html %}
-
-	<body>
+  <link id="font" href="https://fonts.googleapis.com/css?family=Acme&amp;text=" rel="stylesheet" type="text/css">
+	<body style="background-color:#f37154; text-align:center; color: white; margin-top: 83px;">
 		{% include header.html %}
 		{% include js.html %}
-		{% include orderform.html %}
-	</body>
+    <div class="container">
+      <div id="heading">Namkeen from Indore, now available in Bangalore</div>
+      <img src="/img/sanan-intro.jpg" style="width: 500px; max-width: 40%; margin: 10px auto;"/>
+      
+      <div id="description">Free samples at doorstep for tasting in select areas -<br/> L&T South City, Brigade Millenium, Brigade Gardenia, Elita Promenade, in/around Ranka Colony.</div>
+      <div id="main-button-container">
+        <a id="main-button" href="http://pocha.typeform.com/to/yELpg8">Order Now</a>
+      </div>
+      <div id="main-button-container">
+        <a id="main-button" href="https://pocha.typeform.com/to/PFwCfA">Request Samples</a>
+      </div>
+
+    </div>
+  </body>
+
+<style>
+#heading {
+border: 0px none rgb(255, 255, 255);
+font: normal normal normal normal 20px / 30px Acme, 'Helvetica Neue', 'sans serif';
+outline: rgb(255, 255, 255) none 0px;
+}/*#DIV_1*/
+
+
+
+#description {
+color: rgb(255, 255, 255);
+opacity: 0.8;
+         text-align: center;
+border: 0px none rgb(255, 255, 255);
+font: normal normal normal normal 16px / 23.2px Acme, 'Helvetica Neue', 'sans serif';
+margin: 28px 0px 10px;
+outline: rgb(255, 255, 255) none 0px;
+}
+
+#main-button-container {
+display: inline-block;
+height: 52.2222px;
+position: relative;
+          text-align: center;
+          vertical-align: top;
+       perspective-origin: 75.816px 26.1111px;
+       transform-origin: 75.816px 26.1111px;
+font: normal normal normal normal 16px / 17.7778px Acme, 'Helvetica Neue', 'sans serif';
+margin: 8px 0px 0px;
+}
+
+#main-button {
+color: rgb(128, 128, 128);
+cursor: pointer;
+display: inline-block;
+height: 45px;
+        max-width: 610px;
+        text-align: center;
+        text-decoration: none;
+       perspective-origin: 75.816px 26.1111px;
+       transform-origin: 75.816px 26.1111px;
+background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+            border-top: 1.11111px solid rgb(95, 95, 95);
+            border-right: 1.11111px solid rgb(95, 95, 95);
+            border-bottom: 1.11111px solid rgb(62, 62, 62);
+            border-left: 1.11111px solid rgb(95, 95, 95);
+            border-radius: 3px 3px 3px 3px;
+font: normal normal bold normal 25px / 38px Acme, 'Helvetica Neue', 'sans serif';
+outline: rgb(128, 128, 128) none 0px;
+overflow: hidden;
+padding: 5px 20px 0px;
+transition: background-color 0.1s ease-out 0s;
+}/*#A_2*/
+
+
+</style>
+
 </html>
